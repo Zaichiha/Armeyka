@@ -1,0 +1,29 @@
+@import '../options';
+
+.logo {
+	align-self: center;
+	margin: 0;
+	padding: 0 4px;
+
+	&__sitename {
+		display: flex;
+		align-items: center;
+		font-size: 19px;
+		font-weight: 900;
+		text-transform: uppercase;
+
+		@media screen and (min-width: $w-tablet) {
+			font-size: 26px;
+		}
+	}
+
+	&__slogan {
+		color: #a8a8aa;
+		font-size: 10px;
+		text-align: center;
+
+		@media screen and (min-width: $w-tablet) {
+			font-size: 11px;
+		}
+	}
+}

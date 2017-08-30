@@ -1,0 +1,10 @@
+.phone {
+	&__number {
+		font-size: 15px;
+		font-weight: 700;
+
+		@media screen and (min-width: $w-tablet) {
+			font-size: 17px;
+		}
+	}
+}

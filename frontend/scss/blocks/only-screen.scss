@@ -1,0 +1,5 @@
+.only-screen {
+	@media screen and (max-width: $w-tablet) {
+		display: none;
+	}
+}

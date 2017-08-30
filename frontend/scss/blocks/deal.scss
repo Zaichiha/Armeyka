@@ -1,0 +1,26 @@
+@import '../options';
+
+.deal {
+	width: 70%;
+	margin: 0 auto;
+	
+	&__name,
+	&__place {
+		margin: 0;
+		padding: 0;
+
+		@media screen and (min-width: $w-tablet) {
+			font-size: 28px !important;
+		}
+	}
+
+	&__name {
+		color: #468bd1;
+		font-size: 14px;
+		text-decoration: underline;
+	}
+
+	&__place {
+		color: #fff;
+	}
+}

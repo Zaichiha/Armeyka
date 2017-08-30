@@ -1,0 +1,22 @@
+@import '../options';
+
+.rounds {
+	width: 70%;
+	margin: 0 auto;
+	padding: 15px 0 85px;
+	list-style-type: none;
+	text-align: center;
+
+	&__round {
+		display: inline-block;
+		height: 7px;
+		width: 7px;
+		border: 1px solid #888;
+		border-radius: 50%;
+		background-color: #fff;
+		
+		&--active {
+			background-color: transparent;
+		}
+	}
+}

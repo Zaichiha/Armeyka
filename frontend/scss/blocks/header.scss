@@ -1,0 +1,12 @@
+@import '../options';
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 46px;
+	background-color: #fff;
+
+	@media screen and (min-width: $w-tablet) {
+		height: 76px;
+	}
+}

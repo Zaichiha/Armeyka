@@ -1,0 +1,13 @@
+{
+  "name": "armeyka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ivan.podgornov",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}

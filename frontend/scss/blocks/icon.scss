@@ -1,0 +1,10 @@
+.icon {
+	display: inline-block;
+
+	&--star {
+		height: 16px;
+		width: 16px;
+		background-image: url('../images/icons/icon-star.png');
+		background-repeat: no-repeat;
+	}
+}

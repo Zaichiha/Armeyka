@@ -1,0 +1,10 @@
+.contacts {
+	align-self: center;
+	padding: 0 4px;
+	color: #5c5c5c;
+	font-size: 9px;
+
+	@media screen and (min-width: $w-tablet) {
+		font-size: 12px;
+	}
+}

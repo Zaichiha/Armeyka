@@ -1,0 +1,29 @@
+@import '../options';
+
+.law {
+	&__danger {
+		color: $c-danger;
+	}
+
+	&__description {
+		@media screen and (min-width: $w-tablet) {
+			font-size: 37px;
+		}
+	}
+
+	&__cite {
+		display: none;
+		color: #949494;
+		font-style: italic;
+		font-weight: 700;
+		text-align: right;
+
+		@media screen and (min-width: $w-tablet) {
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: $w-tablet) {
+		font-weight: 700;
+	}
+}

@@ -1,0 +1,17 @@
+.threat {
+	padding: 50px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	@media screen and (min-width: $w-tablet) {
+		font-size: 41px;
+	}
+
+	&__emphasis {
+		font-size: 26px;
+
+		@media screen and (min-width: $w-tablet) {
+			font-size: 70px;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+@import '../options';
+
+.layout-positioner {
+	box-sizing: border-box;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 5.56%;
+	padding-right: 5.56%;
+
+	@media screen and (min-width: $w-tablet) {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
